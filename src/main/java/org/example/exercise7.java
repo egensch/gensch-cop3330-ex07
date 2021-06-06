@@ -19,6 +19,7 @@ public class exercise7 {
 
         int areaFt = length * width;
         double areaMt = areaFt * 0.09290304;
+
         System.out.println("The area is ");
         System.out.println("" + areaFt + " square feet");
         System.out.printf("%.3f square meters\n", areaMt);
